@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <title>Apex Offset Press &amp; Book Printing Logo</title>
+  <defs>
+    <!-- Rich Metallic Gold Gradient -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcedb4"/>
+      <stop offset="40%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9a7318"/>
+    </linearGradient>
+
+    <!-- Deep Carbon Obsidian Gradient -->
+    <linearGradient id="carbon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d15"/>
+    </linearGradient>
+
+    <!-- Smooth Paper Gradient -->
+    <linearGradient id="paper-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1ece1"/>
+    </linearGradient>
+
+    <!-- CMYK Process Gradients -->
+    <linearGradient id="cmyk-c" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="cmyk-m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="cmyk-y" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="cmyk-k" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#090d15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Glow & Alignment Grid -->
+  <g opacity="0.35">
+    <circle cx="60" cy="46" r="38" stroke="url(#gold-grad)" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="60" y1="6" x2="60" y2="86" stroke="url(#gold-grad)" stroke-width="1" stroke-linecap="round"/>
+    <line x1="20" y1="46" x2="100" y2="46" stroke="url(#gold-grad)" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- === SECTION 1: OFFSET PRINTING PRESS CYLINDERS === -->
+  <!-- Top Plate Cylinder -->
+  <circle cx="60" cy="28" r="18" fill="url(#carbon-grad)" stroke="url(#gold-grad)" stroke-width="2.5"/>
+  <circle cx="60" cy="28" r="9" fill="url(#gold-grad)" opacity="0.9"/>
+  <circle cx="60" cy="28" r="3.5" fill="#ffffff"/>
+
+  <!-- Center Offset Blanket Roller Cylinders (Left & Right Balanced Units) -->
+  <g>
+    <!-- Left Cylinder Core -->
+    <circle cx="42" cy="50" r="15" fill="url(#carbon-grad)" stroke="url(#gold-grad)" stroke-width="2"/>
+    <circle cx="42" cy="50" r="6" fill="#d4af37" opacity="0.8"/>
+    <!-- Right Cylinder Core -->
+    <circle cx="78" cy="50" r="15" fill="url(#carbon-grad)" stroke="url(#gold-grad)" stroke-width="2"/>
+    <circle cx="78" cy="50" r="6" fill="#d4af37" opacity="0.8"/>
+  </g>
+
+  <!-- Flowing Paper Web Substrate emerging from cylinders -->
+  <path d="M 42 50 C 48 38, 72 38, 78 50 C 82 58, 76 66, 60 67 C 44 66, 38 58, 42 50 Z" fill="url(#paper-grad)" stroke="url(#gold-grad)" stroke-width="1.5"/>
+
+  <!-- === SECTION 2: OPEN PRINTED BOOK & CASEBOUND FINISH === -->
+  <!-- Book Hardcover Base Spine -->
+  <path d="M 60 76 L 60 108" stroke="url(#gold-grad)" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Hardcover Back Cover Wings -->
+  <path d="M 60 107 C 46 102, 28 102, 14 107 L 14 103 C 28 98, 46 98, 60 103 Z" fill="url(#gold-grad)"/>
+  <path d="M 60 107 C 74 102, 92 102, 106 107 L 106 103 C 92 98, 74 98, 60 103 Z" fill="url(#gold-grad)"/>
+
+  <!-- Open Book Pages (Layered Book Signatures) -->
+  <!-- Under Layer Pages -->
+  <path d="M 60 102 C 45 96, 26 97, 16 102 L 17 84 C 27 79, 45 78, 60 84 Z" fill="#e7e0d3" opacity="0.75"/>
+  <path d="M 60 102 C 75 96, 94 97, 104 102 L 103 84 C 93 79, 75 78, 60 84 Z" fill="#e7e0d3" opacity="0.75"/>
+
+  <!-- Top Open Pages (Crisp Printing Paper Sheets) -->
+  <!-- Left Page -->
+  <path d="M 60 99 C 44 93, 24 94, 18 97 L 20 78 C 26 75, 44 74, 60 79 Z" fill="url(#paper-grad)" stroke="url(#gold-grad)" stroke-width="1.8"/>
+  <!-- Left Page Print Lines -->
+  <line x1="28" y1="81" x2="52" y2="85" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="28" y1="86" x2="52" y2="90" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="28" y1="91" x2="46" y2="94" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Right Page -->
+  <path d="M 60 99 C 76 93, 96 94, 102 97 L 100 78 C 94 75, 76 74, 60 79 Z" fill="url(#paper-grad)" stroke="url(#gold-grad)" stroke-width="1.8"/>
+  <!-- Right Page Print Lines -->
+  <line x1="68" y1="85" x2="92" y2="81" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="68" y1="90" x2="92" y2="86" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="68" y1="94" x2="86" y2="91" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Book Headband / Spine Ribbon Finial -->
+  <ellipse cx="60" cy="78" rx="3.5" ry="2" fill="url(#gold-grad)"/>
+
+  <!-- === SECTION 3: 4 CMYK PROCESS COLOR MARKS === -->
+  <!-- Cyan (Top Right) -->
+  <circle cx="94" cy="32" r="5" fill="url(#cmyk-c)" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Magenta (Top Left) -->
+  <circle cx="26" cy="32" r="5" fill="url(#cmyk-m)" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Yellow (Far Right) -->
+  <circle cx="106" cy="56" r="5" fill="url(#cmyk-y)" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Key Black (Far Left) -->
+  <circle cx="14" cy="56" r="5" fill="url(#cmyk-k)" stroke="#ffffff" stroke-width="1.5"/>
+
+  <!-- Precision Center Register Crosshair Pin -->
+  <circle cx="60" cy="46" r="3" fill="none" stroke="url(#gold-grad)" stroke-width="1.5"/>
+  <line x1="60" y1="41" x2="60" y2="51" stroke="url(#gold-grad)" stroke-width="1.2"/>
+  <line x1="55" y1="46" x2="65" y2="46" stroke="url(#gold-grad)" stroke-width="1.2"/>
+</svg>
